@@ -8,10 +8,11 @@ import pandas as pd
 application = Flask(__name__)
 app=application
 
-scaler=pickle.load(open("C:\\Users\\Let\\Desktop\\Data Sets\\Diabetes-Deployment-With-BeanStalk-main\\Model\\standardScaler.pkl", "rb"))
-model = pickle.load(open("C:\\Users\\Let\\Desktop\\Data Sets\\Diabetes-Deployment-With-BeanStalk-main\\Model\\ModelForPrediction.pkl", "rb"))
+# scaler=pickle.load(open("C:\\Users\\Let\\Desktop\\Data Sets\\Diabetes-Deployment-With-BeanStalk-main\\Model\\standardScaler.pkl", "rb"))
+# model = pickle.load(open("C:\\Users\\Let\\Desktop\\Data Sets\\Diabetes-Deployment-With-BeanStalk-main\\Model\\ModelForPrediction.pkl", "rb"))
 
-## Route for homepage
+## Route for homepagels
+
 
 @app.route('/')
 def index():
